@@ -98,7 +98,8 @@ button:hover{
 }
 
 .attribution{
-    margin-top: 4rem;
+    margin-top: 2rem;
+    font-size: 0.5rem;
 }
 
 @media screen and (max-width: 780px) { 
@@ -127,7 +128,6 @@ button:hover{
         padding-top: 1.5rem;
         margin:0;
     }
-
 
     h1{
         margin:0;
