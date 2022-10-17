@@ -18,11 +18,15 @@ main{
 }
 
 .container{
-    background-color: white;
+    
     width: 750px;
     height: 563px;
     display: flex;
     border-radius: 0.5rem;
+}
+
+.cabecera2{
+    display:none;
 }
 
 img{
@@ -32,6 +36,7 @@ img{
 
 .card-rigth{
     padding-left: 2rem;
+    background-color: white;
 }
 
 .perfume{
@@ -95,3 +100,41 @@ button:hover{
 .attribution{
     margin-top: 4rem;
 }
+
+@media screen and (max-width: 780px) { 
+    
+    .cabecera1{
+        display: none;
+    }
+
+    .cabecera2{
+        display:block;
+        width: 100%;
+        border-radius: 0.5rem 0.5rem 0 0 ;
+    }
+
+    .container{
+    display: flex;
+    flex-direction:column;
+    width: 375px;
+    height: 750px;    }
+
+    .card-rigth{
+        border-radius: 0 0 0.5rem 0.5rem;
+    }
+
+    .perfume{
+        padding-top: 1.5rem;
+        margin:0;
+    }
+
+
+    h1{
+        margin:0;
+        padding-top:0.5rem;
+        padding-right: 0;
+    }
+
+}    
+
+
